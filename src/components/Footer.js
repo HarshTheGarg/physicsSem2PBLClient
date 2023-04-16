@@ -30,9 +30,6 @@ const Footer = () => {
           </div>
         </div>
       </div>
-      <div className="copyrightInfoContainer">
-        <div className="copyrightInfo">No copyright ingringment intended</div>
-      </div>
     </footer>
   );
 };
