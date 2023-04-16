@@ -5,7 +5,8 @@
   "private": true,
   "scripts": {
     "build": "webpack --mode production",
-    "start": "webpack-dev-server --mode development --open --hot"
+    "devstart": "webpack-dev-server --mode development --open --hot",
+    "start": "npx http-server ./dist/"
   },
   "author": "",
   "license": "ISC",
