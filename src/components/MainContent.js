@@ -8,11 +8,12 @@ const MainContent = () => {
   const [constants, setConstants] = useState([]);
 
   useEffect(() => {
-    fetch("https://physicssem2pbl.up.railway.app/api/constants", {
+    fetch("https://phpbl-api.up.railway.app/api/constants", {
       "Content-Type": "application/json",
     })
       .then((res) => res.json())
-      .then((data) => setConstants([data]));
+      .then((data) => setConstants([data]))
+      .catch((err) => console.log(err));
   }, []);
 
   if (!constants.length) {
