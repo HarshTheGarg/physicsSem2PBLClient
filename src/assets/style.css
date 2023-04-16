@@ -116,14 +116,3 @@ footer {
 .makerSocial a{
   margin-right: 1em;
 }
-
-.copyrightInfoContainer {
-  display: flex;
-  flex-direction: row;
-  align-items: flex-end;
-  height: 100%;
-}
-
-.copyrightInfo {
-  font-size: 0.6rem;
-}
